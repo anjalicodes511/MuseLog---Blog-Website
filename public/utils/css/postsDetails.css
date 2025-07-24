@@ -1,0 +1,36 @@
+/* === Centering Contents and Circular Image === */
+
+/* Wrapper to center everything inside the card */
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Circular Image Styling */
+.img-circle {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .img-circle {
+    width: 140px;
+    height: 140px;
+  }
+
+  .card-title {
+    font-size: 1.4rem;
+  }
+
+  .card-text {
+    font-size: 0.95rem;
+  }
+}

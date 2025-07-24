@@ -1,0 +1,65 @@
+/* Page heading */
+h1.text-center {
+  font-weight: 600;
+  color: #333;
+  font-size: 2rem;
+}
+
+/* Post card */
+.card {
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+/* Post image */
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Post body */
+.card-body {
+  padding: 1rem;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.card-text {
+  color: #555;
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+/* Button */
+.btn {
+  width: 100%;
+}
+
+/* Empty state text */
+p.text-center {
+  font-size: 1.2rem;
+  color: #777;
+  margin-top: 2rem;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  h1.text-center {
+    font-size: 1.6rem;
+  }
+
+  .card-img-top {
+    height: 160px;
+  }
+}

@@ -1,0 +1,105 @@
+/* General layout */
+.container {
+  padding: 2rem;
+}
+
+/* === Center profile card section === */
+.profile-card {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+/* Ensure the profile info doesn't get squeezed */
+.profile-card .row {
+  width: 100%;
+  justify-content: center;
+}
+
+/* Constrain card width */
+.col-lg-4 {
+  max-width: 400px;
+  width: 100%;
+}
+
+/* Profile card */
+.card-body.text-center {
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.card-body.text-center img {
+  border: 4px solid #007bff;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+/* Headings and spacing */
+.card-title {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.card-text {
+  margin-bottom: 0.3rem;
+  font-size: 0.95rem;
+  white-space: normal;
+  word-break: break-word;
+  text-align: center;
+}
+
+/* Buttons */
+.btn-block {
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+/* Post Cards */
+.card {
+   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.01);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+/* Title */
+h2.mb-4 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-top: 2rem;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .card-body.text-center img {
+    width: 120px;
+    height: 120px;
+  }
+
+  h2.mb-4 {
+    text-align: center;
+  }
+
+  .btn {
+    font-size: 0.9rem;
+  }
+}
