@@ -10,7 +10,6 @@ A full-featured blog application built using the **MVC architecture** with Node.
 - Create, edit, and delete blog posts
 - Upload images with posts (Multer)
 - Comment on posts
-- Like/dislike functionality
 - Fully responsive layout with Bootstrap
 - MVC folder structure for clean code separation
 
